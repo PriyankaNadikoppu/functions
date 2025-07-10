@@ -1,0 +1,3 @@
+#lambdan user defined varable : arithmetic op
+expo= lambda a: a**a
+print(expo(5))
