@@ -1,0 +1,13 @@
+'''function'''
+def hi(name):
+    print("hello", name)
+hi("priya")
+
+
+
+''' defoult dta another program'''
+def hi(name='guest'):
+    print("hello", name)
+a= input("enter data:")
+hi()
+hi(a)
