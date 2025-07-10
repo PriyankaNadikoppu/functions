@@ -1,0 +1,8 @@
+# fun with parameters
+def add(a,b):
+    print("total:", a+b)
+student1= int(input())
+student2= int(input())
+total= add(student1, student2)
+
+
