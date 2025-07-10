@@ -1,0 +1,8 @@
+def max_min(a,b,c):
+    return max(a,b,c), min(a,b,c)
+a= int(input("enter a:"))
+b= int(input("enter b:"))
+c= int(input("enter c:"))
+maxi, mini= max_min(a,b,c)
+print("maximum:", maxi)
+print("minimum:", mini)
